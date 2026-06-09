@@ -1,0 +1,69 @@
+Algoritmo "MenuLanchonete"
+
+
+
+Var
+
+   codigo: inteiro
+
+
+
+Inicio
+
+
+
+   Escreval(" LANCHONETE ")
+
+   Escreval("1 - Cachorro Quente (R$ 8,00)")
+
+   Escreval("2 - Hamburguer (R$ 15,00)")
+
+   Escreval("3 - Misto Quente (R$ 10,00)")
+
+   Escreval("4 - Refrigerante (R$ 5,00)")
+
+   Escreva("Digite o codigo do item desejado: ")
+
+   Leia(codigo)
+
+
+
+   Escolha codigo
+
+
+
+      Caso 1
+
+         Escreval("Cachorro Quente - R$ 8,00")
+
+
+
+      Caso 2
+
+         Escreval("Hamburguer - R$ 15,00")
+
+
+
+      Caso 3
+
+         Escreval("Misto Quente - R$ 10,00")
+
+
+
+      Caso 4
+
+         Escreval("Refrigerante - R$ 5,00")
+
+
+
+      OutroCaso
+
+         Escreval("Codigo invalido!")
+
+
+
+   FimEscolha
+
+
+
+Fimalgoritmo
