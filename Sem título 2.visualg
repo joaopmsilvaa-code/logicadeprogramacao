@@ -1,0 +1,48 @@
+Algoritmo "TelaDeBloqueio"
+
+
+
+Var
+
+   senhaCorreta, senhaDigitada: caractere
+
+
+
+Inicio
+
+
+
+   senhaCorreta <- "123456"
+
+
+
+   Escreva("Digite a senha: ")
+
+   Leia(senhaDigitada)
+
+
+
+   Enquanto senhaDigitada <> senhaCorreta Faca
+
+
+
+      
+
+      Escreval("Senha incorreta, acesso negado.")
+
+      Escreva("Tente novamente: ")
+
+      Leia(senhaDigitada)
+
+
+
+   FimEnquanto
+
+
+
+   Escreval("Acesso liberado!")
+
+
+
+Fimalgoritmo
+
